@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diouane Fatima-Zohra - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">DIOUANE F.Z.</div>
+            <ul class="nav-links">
+                <li><a href="#about">Profil</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header / Hero -->
+    <header id="about">
+        <div class="container hero">
+            <div class="profile-img-container">
+                <!-- Ensure your image file is named profile.jpg -->
+                <img src="profile.jpg" alt="Diouane Fatima-Zohra" class="profile-img">
+            </div>
+            <h1>DIOUANE FATIMA-ZOHRA</h1>
+            <h2>Ingénieur Support IT & Systèmes | Full Stack Developer | Coach</h2>
+
+            <p style="max-width: 700px; color: var(--text-secondary); margin-bottom: 2rem;">
+                Ingénieur Support IT & Systèmes avec une solide expérience technique et une certification en coaching.
+                Je combine mes compétences en diagnostic et résolution de problèmes avec une forte orientation client.
+                Je souhaite mettre mon savoir-faire technique et ma pédagogie au service du support utilisateurs et de la maintenance.
+            </p>
+
+            <div class="contact-info">
+                <a href="mailto:faty.diouane@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i> faty.diouane@gmail.com
+                </a>
+                <a href="tel:+212646406042" class="contact-item">
+                    <i class="fas fa-phone"></i> +212 646 40 60 42
+                </a>
+                <a href="https://www.linkedin.com/in/fatimazohra-diouane-04b809348" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/FatyD" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+
+            <div style="margin-top: 2rem; color: var(--text-primary);">
+                <i class="fas fa-map-marker-alt" style="color: var(--accent);"></i>
+                N° 138 Quartier Essalam Emhirez, SEFROU – Maroc
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences Techniques</h2>
+            <div class="skills-grid">
+
+                <!-- Admin & Support -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Admin Système & Support</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Windows 10/11</span>
+                        <span class="tag">Windows Server</span>
+                        <span class="tag">MacOS</span>
+                        <span class="tag">Office 365</span>
+                        <span class="tag">Active Directory</span>
+                        <span class="tag">DNS/DHCP</span>
+                        <span class="tag">Ticketing (Jira/Akuitéo)</span>
+                        <span class="tag">Sécurité & Sauvegardes</span>
+                    </div>
+                </div>
+
+                <!-- Dev & DB -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Développement & BD</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Java (Spring Boot)</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL Server</span>
+                        <span class="tag">MySQL/PostgreSQL</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Docker/K8s</span>
+                        <span class="tag">CI/CD (Azure/Jenkins)</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-users"></i> Soft Skills & Coaching</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Communication Pédagogique</span>
+                        <span class="tag">Problem Solving</span>
+                        <span class="tag">Gestion d'Équipe</span>
+                        <span class="tag">Adaptabilité</span>
+                        <span class="tag">Conviction & Influence</span>
+                        <span class="tag">NLP Master</span>
+                    </div>
+                </div>
+
+                <!-- Langues -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-language"></i> Langues</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Français (Courant)</span>
+                        <span class="tag">Anglais (Technique)</span>
+                        <span class="tag">Arabe (Maternel)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Expériences Professionnelles</h2>
+
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <span class="role-title">Freelancer : Consultante IT & Support Technique</span>
+                    <span class="company-name">Indépendant</span>
+                </div>
+                <div class="date-range">2014 – Présent</div>
+                <ul class="description-list">
+                    <li><strong>Support & Assistance :</strong> Accompagnement clients, résolution incidents N1/N2, prise en main outils numériques.</li>
+                    <li><strong>Maintenance & Diagnostic :</strong> Maintenance préventive/corrective web & apps, détection de bugs, mises à jour sécurité.</li>
+                    <li><strong>Gestion de Projet :</strong> Analyse besoins, rédaction cahiers des charges et guides utilisateurs (Pédagogie).</li>
+                    <li><strong>Installation & Config :</strong> Mise en place environnements de travail, BDD et sécurisation des données.</li>
+                    <li><strong>Coaching :</strong> Gestion situations difficiles, amélioration communication (Orientation Client).</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section id="formation">
+        <div class="container">
+            <h2 class="section-title">Formation & Certifications</h2>
+
+            <!-- Certifications List -->
+            <div class="cert-box">
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Certifications 2025</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle" style="color: var(--accent);"></i> <strong>Full Stack Java/Angular</strong> - JobInTech</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle" style="color: var(--accent);"></i> <strong>NLP Master Practitioner</strong> - American Board</li>
+                    <li style="margin-bottom: 0.5rem;"><i class="fas fa-check-circle" style="color: var(--accent);"></i> <strong>Azure: Cloud Practitioner</strong> - DataCamp</li>
+                </ul>
+            </div>
+            <br>
+
+            <!-- Education Timeline -->
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <span class="role-title">Formation Developpeuse Fullstack</span>
+                    <span class="company-name">ARK-X, Fès</span>
+                </div>
+                <div class="date-range">2025</div>
+                <p>Formation intensive sur les technologies modernes : Java, Angular, Spring Boot, DevOps.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <span class="role-title">Master Practitioner en Business Coaching</span>
+                    <span class="company-name">SAMMARI ACADEMY, Online</span>
+                </div>
+                <div class="date-range">2023 – 2025</div>
+                <p>Développement des compétences en accompagnement, leadership et gestion de la performance.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <span class="role-title">Bac+5 Génie Logiciel</span>
+                    <span class="company-name">HIGH TECH, Rabat</span>
+                </div>
+                <div class="date-range">2013</div>
+                <p>Diplôme d'ingénieur d'état en informatique / génie logiciel.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Diouane Fatima-Zohra. Tous droits réservés.</p>
+            <div style="margin-top: 10px;">
+                <a href="https://www.linkedin.com/in/fatimazohra-diouane-04b809348" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                <span style="margin: 0 10px;">|</span>
+                <a href="https://github.com/FatyD" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
